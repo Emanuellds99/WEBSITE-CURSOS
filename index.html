@@ -45,3 +45,20 @@
     <script src="js/script.js"></script>
 </body>
 </html>
+<section id="galeria">
+    <h2>Galeria Tecnológica</h2>
+    <div class="gallery">
+        <div class="card">
+            <img src="images/imagem1.jpg" alt="Tecnologia 1" onclick="openModal(this.src)">
+            <p>Descrição da imagem 1</p>
+        </div>
+        <div class="card">
+            <img src="images/imagem2.jpg" alt="Tecnologia 2" onclick="openModal(this.src)">
+            <p>Descrição da imagem 2</p>
+        </div>
+        <!-- Adicione mais imagens -->
+    </div>
+    <div id="modal" class="modal" onclick="closeModal()">
+        <img id="modal-img" src="" alt="">
+    </div>
+</section>
